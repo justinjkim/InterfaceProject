@@ -17,4 +17,6 @@ public abstract class Soldier {
     public String eat() {
         return "Nom nom";
     }
+
+    public abstract String speak(); // as of writing this line, looks like compiler complains that it should NOT have a body, so leaving alone...
 }
