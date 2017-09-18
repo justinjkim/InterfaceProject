@@ -10,12 +10,26 @@ public class Archon extends Soldier {
     }
 
     @Override
+    public String kamikazeAttack() {
+        return "My life for Aiur!";
+    }
+
+    public String projectileAttack() {
+        return "Using psionic waves against the enemy...";
+    }
+
+    public String meleeAttack() {
+        return "My hands are too powerful for you...";
+    }
+
+    @Override
     public String toString() {
         return "My name is " +
                 name + " and I will give my life for the " +
                 faction + ".\n" +
                 "Power Level: " +
                 powerLevel + "\n" +
-                "Is Commander? " + isCommander + "\n";
+                "Is Commander? " +
+                isCommander;
     }
 }
