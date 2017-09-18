@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class Soldier {
+public abstract class Soldier implements ProjectileAttack, MeleeAttack, KamikazeAttack {
     String name;
     String faction;
     int powerLevel;
