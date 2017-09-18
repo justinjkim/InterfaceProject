@@ -2,9 +2,10 @@ package com.company;
 
 public abstract class Soldier {
     String name;
-    String rank;
-    int serialNumber;
-    boolean isBoss;
+    String faction;
+    int powerLevel;
+    boolean isCommander;
+
 
     public String taunt(String s) {
         return s;
