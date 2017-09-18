@@ -11,5 +11,9 @@ public class Main {
         Hydralisk Groucho = new Hydralisk("Groucho", "Zerg", 3, false);
         System.out.println(Groucho);
         System.out.println(Groucho.speak());
+
+        Archon Buzby = new Archon("Buzby", "Protoss", 5, true);
+        System.out.println(Buzby);
+        System.out.println(Buzby.speak());
     }
 }
