@@ -6,6 +6,13 @@ public abstract class Soldier {
     int powerLevel;
     boolean isCommander;
 
+    public Soldier (String name, String faction, int powerLevel, boolean isCommander) {
+        this.name = name;
+        this.faction = faction;
+        this.powerLevel = powerLevel;
+        this.isCommander = false;
+    }
+
 
     public String taunt(String s) {
         return s;
