@@ -1,5 +1,5 @@
 package com.company;
 
 public interface MeleeAttack {
-    public void meleeAttack();
+    public String meleeAttack();
 }
