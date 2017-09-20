@@ -24,5 +24,8 @@ public class Main {
         System.out.println(Buzby.meleeAttack());
         System.out.println(Buzby.projectileAttack());
         System.out.println(Buzby.kamikazeAttack());
+        System.out.println(Buzby.punch());
+
+
     }
 }
