@@ -1,6 +1,6 @@
 package com.company;
 
-public class Marine extends Soldier {
+public class Marine extends Soldier implements ProjectileAttack, MeleeAttack, KamikazeAttack {
 
     public Marine (String name, String faction, int powerLevel, boolean isCommander) {
         super(name, "Terran", 1, false);

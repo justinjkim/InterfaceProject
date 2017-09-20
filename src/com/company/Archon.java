@@ -1,6 +1,6 @@
 package com.company;
 
-public class Archon extends Soldier {
+public class Archon extends Soldier implements ProjectileAttack, MeleeAttack, KamikazeAttack {
     public Archon (String name, String faction, int powerLevel, boolean isCommander) {
         super(name, "Protoss", 5, true);
     }

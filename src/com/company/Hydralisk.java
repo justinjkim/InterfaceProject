@@ -1,6 +1,6 @@
 package com.company;
 
-public class Hydralisk extends Soldier {
+public class Hydralisk extends Soldier implements ProjectileAttack, MeleeAttack, KamikazeAttack {
     public Hydralisk (String name, String faction, int powerLevel, boolean isCommander) {
         super(name, "Zerg", 3, false);
     }
