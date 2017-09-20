@@ -30,4 +30,5 @@ public class Marine extends Soldier implements ProjectileAttack, MeleeAttack, Ka
                 powerLevel + "\nIs Commander? " +
                 isCommander;
     }
+
 }
