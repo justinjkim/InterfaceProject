@@ -23,6 +23,11 @@ public class Archon extends Soldier implements ProjectileAttack, MeleeAttack, Ka
     }
 
     @Override
+    public String punch() {
+        return "Well, this is awkward...I forgot I don't really have hands, only psionic wave blasts.";
+    }
+
+    @Override
     public String toString() {
         return "My name is " +
                 name + " and I will give my life for the " +
